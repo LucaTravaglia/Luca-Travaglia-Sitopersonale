@@ -1,0 +1,245 @@
+body{font-family: "Source Sans Pro"; color:#04202e; }
+
+.anchor-parallax{
+	display: block;
+	height: 100px;
+	margin-top: -100px;
+	visibility: hidden;
+}
+
+#location-panel.anchor-parallax{
+	margin-top: -60px;
+	height: 60px;
+}
+
+.spacer{height: 70px;}
+
+.animate{
+		-webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+/*-------------------------- Menu --------------------------*/
+
+.navbar{min-height: 70px}
+
+.navbar.navbar-inverse{background-color: #04202e;border-bottom: 0;}              /*------- colore default della barra di navigazione -------*/
+.navbar-inverse .navbar-toggle{margin-top: 15px;}
+
+.navbar-brand,
+.navbar-nav li a{
+	padding-top: 0;
+	line-height: 70px;
+	height: 70px;
+	font-size: 16px;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+	color:#fff; 																												           /*------- colore della barra di navigazione -------*/
+}
+
+.img-logo{
+	width: auto;
+	height: 125px; 																																 /*------- dimensioni logo -------*/
+}
+
+.parallax{
+	padding: 200px 100px 100px 100px;text-align: center;color:#fff;
+}
+
+/*-------------------------- Cover --------------------------*/
+
+#cover{background: url("img/coverblu.jpg") no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+
+	}
+	.titolo-principale{font-size: 70px;font-weight: bold;}
+	.sottotitolo{font-size: 35px; max-width: 500px;margin: 0 auto}
+	.button{background-color: #c9ff27;
+		color:#04202e;
+		padding: 10px 30px;
+		display: inline-block;
+		border-radius: 30px;
+		margin: 30px;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 18px;
+	}
+	.arrow .fa{font-size: 62px;}
+
+	/*-------------------------- Domande --------------------------*/
+
+	.titolo-secondario{font-size:36px; color:#000;font-weight: bold;}
+	.trattino{width: 30px;height: 10px;background-color: #c9ff27; margin-bottom:20px; margin-top: 20px;}
+
+	/*-------------------------- Banner Branding --------------------------*/
+
+  #bannerbranding {background: url("img/Mockupbrandingblu.jpg") no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		padding-top:90px;
+		padding-bottom: 90px;
+
+	}
+
+  /*-------------------------- Banner Ui/Ux --------------------------*/
+
+	#banneruiux {background: url("img/uiuxblu.jpg") no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		padding-top:90px;
+		padding-bottom: 90px;
+
+	}
+
+	/*-------------------------- Banner Marketing --------------------------*/
+
+	#bannermarketing {background: url("img/digitalblu.jpg") no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		padding-top:90px;
+		padding-bottom: 90px;
+
+	}
+
+
+	/*-------------------------- Lista Servizi --------------------------*/
+
+	#lista-servizi h3{ color:#999; text-transform: uppercase; font-weight: bold;margin-bottom: 40px;}
+	.step{border-bottom: 1px solid #ccc;padding: 20px;margin-top: 20px; font-size: 18px;text-align: center;}
+
+
+	/*-------------------------- Sede Ufficio  --------------------------*/
+
+	.bg-row{background-color: #e0e0e0;}
+	.contenuto-ufficio{padding: 20px 40px;}
+	.contenuto-ufficio .titolo-principale{margin-bottom: 40px;}
+	.no-margin{margin: 0px;padding: 0px;}
+
+	/*-------------------------- Contattami --------------------------*/
+
+	#contattami .sottotitolo{color: #444; font-size: 20px;}
+
+	#contattami form {max-width:600px;margin: 40px auto;text-align: center}
+	#contattami input[type=text] {width:100%;padding: 10px;border: 2px solid #ccc; margin-bottom: 30px;font-size: 32px;}
+	#contattami input[type=submit] {background-color: #c9ff27;
+		color:#04202e;
+		padding: 10px 30px;
+		display: inline-block;
+		border-radius: 30px;
+		border:none;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 18px;}
+
+
+		/*-------------------------- Footer --------------------------*/
+
+		footer{
+		 background-color: #04202e;
+		 padding: 40px;
+		}
+			footer p{color: #fff;margin-bottom: 0px;}
+
+
+
+
+
+			.social-menu ul {                                                          /*------- social media nel footer -------*/
+			    position: relative;
+			    top: 50%;
+			    left: 50%;
+			    transform: translate(-12.5%, 10%);
+			    padding: 40px;
+			    margin: 0;
+			    display: flex;
+			}
+			.social-menu ul li {
+			    list-style: none;
+			    margin: 0 10px;
+			}
+			.social-menu ul li .fa {
+			    color: #000000;
+			    font-size: 25px;
+			    line-height: 50px;
+			    transition: .5s;
+			}
+			.social-menu ul li .fa:hover {
+			    color: #ffffff;
+			}
+			.social-menu ul li a {
+			    position: relative;
+			    display: block;
+			    width: 50px;
+			    height: 50px;
+			    border-radius: 50%;
+			    background-color: white;
+			    text-align: center;
+			    transition: 0.5s;
+			    transform: translate(0,0px);
+			    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+			}
+			.social-menu ul li a:hover {
+			    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+			}
+			.social-menu ul li:nth-child(1) a:hover {
+			    background-color: #3b5999;
+			}
+			.social-menu ul li:nth-child(2) a:hover {
+			    background-color: #55acee;
+			}
+			.social-menu ul li:nth-child(3) a:hover {
+			    background-color: #e4405f;
+			}
+			.social-menu ul li:nth-child(4) a:hover {
+			    background-color: #cd201f;
+			}
+			.social-menu ul li:nth-child(5) a:hover {
+			    background-color: #0077B5;
+			}
+
+
+
+
+
+
+
+
+	/*-------------------------- Media Query per Desktop --------------------------*/
+
+	@media (min-width: 1023px){
+
+		.navbar{margin-top: 20px;}
+		.navbar.navbar-inverse{background-color: transparent;border-bottom: 0;}
+		.navbar-inverse .navbar-nav > .active > a,
+		.navbar-inverse .navbar-nav > .active > a:hover,
+		.navbar-inverse .navbar-nav > .active > a:focus{
+			background-color: transparent;
+			color: #c9ff27;                                                            /*------- colore voci della barra di navigazione -------*/
+		}
+
+	}
+
+
+	/*-------------------------- Media Query per Tablet --------------------------*/
+
+
+	@media (max-width: 1024px){
+		.navbar{background-color: #04202e!important;margin-top: 0!important}
+		.parallax { padding: 100px 50px 50px 50px;}
+		.titolo-principale{font-size: 40px;}
+		.module{margin-bottom: 60px;}
+
+	}
